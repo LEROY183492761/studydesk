@@ -1,0 +1,107 @@
+.academic-import {
+  width: 100%;
+  margin: var(--space-2) 0;
+  padding: var(--space-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-muted);
+  color: var(--color-text);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  resize: vertical;
+}
+
+.academic-actions {
+  display: flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.academic-actions input {
+  min-width: 180px;
+  padding: 6px var(--space-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-muted);
+  color: var(--color-text);
+  font-size: 12px;
+}
+
+.academic-hint {
+  margin-top: var(--space-2);
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.academic-summary {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin: var(--space-3) 0;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.academic-summary strong {
+  color: var(--color-text);
+  font-size: 16px;
+}
+
+.academic-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.academic-table th,
+.academic-table td {
+  padding: 6px var(--space-2);
+  border-bottom: 1px solid var(--color-border);
+  text-align: left;
+}
+
+.academic-table th {
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  font-size: 11px;
+}
+.settings-account {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.settings-account label {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  font-size: 12px;
+}
+
+.settings-account label > span {
+  color: var(--color-text-secondary);
+  font-size: 11px;
+}
+
+.settings-account input {
+  padding: 6px var(--space-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-muted);
+  color: var(--color-text);
+  font-size: 12px;
+}
+
+.settings-campus {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+}
+
+.settings-account-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

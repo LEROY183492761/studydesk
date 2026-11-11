@@ -1,4 +1,4 @@
-﻿node_modules/
+node_modules/
 dist/
 dist-ssr/
 coverage/
@@ -38,3 +38,6 @@ _toolchain_test_no_temp_lib_h.s
 *.tsbuildinfo
 *.bak-*
 .gitignore.bak-*
+
+# 嵌套 Rust 构建产物
+**/target/

@@ -1,0 +1,182 @@
+/* v0.5：目标与倒数日 */
+.goal-composer,
+.countdown-composer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3);
+  margin-bottom: var(--space-3);
+}
+
+.goal-composer input,
+.goal-composer select,
+.countdown-composer input,
+.countdown-composer select {
+  padding: 7px var(--space-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-muted);
+  font-size: 12px;
+}
+
+.goal-composer input[type='text'],
+.goal-composer input:not([type]),
+.countdown-composer input:not([type]) {
+  flex: 1;
+  min-width: 180px;
+}
+
+.goal-stats {
+  display: flex;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-3);
+  font-size: 12px;
+  color: var(--color-text-secondary);
+}
+
+.goal-stats strong {
+  color: var(--color-text);
+  font-size: 15px;
+}
+
+.goal-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--space-3);
+}
+
+.goal-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-3);
+}
+
+.goal-card.is-done {
+  opacity: 0.72;
+}
+
+.goal-head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.goal-head strong {
+  font-size: 14px;
+}
+
+.goal-note {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.goal-progress-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.goal-progress-row input {
+  flex: 1;
+  accent-color: var(--color-primary);
+}
+
+.goal-actions {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.countdown-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.countdown-card {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3);
+}
+
+.countdown-days {
+  display: flex;
+  align-items: baseline;
+  gap: 2px;
+  min-width: 74px;
+  color: var(--color-primary);
+}
+
+.countdown-days strong {
+  font-size: 26px;
+  font-family: var(--font-mono);
+}
+
+.countdown-days span {
+  font-size: 11px;
+  color: var(--color-text-secondary);
+}
+
+.countdown-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+
+.countdown-main strong {
+  font-size: 14px;
+}
+
+.countdown-main .muted {
+  font-size: 11px;
+}
+
+.countdown-mini-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.countdown-mini-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+}
+
+.today-grid .countdown-panel {
+  order: -1;
+}
+
+.countdown-mini-days {
+  min-width: 52px;
+  font-family: var(--font-mono);
+  font-size: 30px;
+  line-height: 1;
+  color: var(--color-primary);
+}
+
+.countdown-mini-days small {
+  margin-left: 2px;
+  font-size: 11px;
+  color: var(--color-text-secondary);
+}
+
+.countdown-mini-main {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.countdown-mini-list .muted {
+  font-size: 11px;
+  white-space: nowrap;
+}
