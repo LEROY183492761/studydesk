@@ -1,0 +1,49 @@
+name: Feature request
+description: 提出一个功能或改进
+title: "[FEAT] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决什么问题
+      description: 用户场景 + 当前痛点
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+      description: 交互/数据/边界条件；有替代方案也写上
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: 影响模块
+      options:
+        - 今日
+        - 日历
+        - 待办
+        - 专注
+        - 习惯
+        - 复盘
+        - 随想
+        - 目标/倒数日
+        - 课表
+        - 账号/导入
+        - 设置/系统
+        - 其他
+  - type: dropdown
+    id: priority
+    attributes:
+      label: 优先级
+      options:
+        - P1 本迭代
+        - P2 下迭代
+        - P3 有空再说
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 怎样算完成（可勾选）

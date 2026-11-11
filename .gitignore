@@ -1,0 +1,40 @@
+﻿node_modules/
+dist/
+dist-ssr/
+coverage/
+*.local
+.vite/
+.DS_Store
+Thumbs.db
+
+src-tauri/target/
+src-tauri/gen/
+.toolchain/
+
+.env
+.env.*
+!.env.example
+
+*.log
+npm-debug.log*
+
+# IDE / Agent 缂撳瓨锛堝崕涓?CodeArts / 鏈満宸ュ叿锛?
+.codeartsdoer/
+.arts/
+.cargo/
+
+# 鏋勫缓/璋冭瘯娈嬬暀
+*.pdb
+*.lib
+*.rlib
+
+# 璇暀涓嬬殑 0 瀛楄妭鏂囦欢
+kernel32.dll
+_toolchain_test_no_temp_lib_h.s
+
+# ---- 补充（GitHub 协作）----
+.vscode/
+.idea/
+*.tsbuildinfo
+*.bak-*
+.gitignore.bak-*
