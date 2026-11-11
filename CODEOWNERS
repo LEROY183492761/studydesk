@@ -1,16 +1,10 @@
 # CODEOWNERS：自动请求 review
 # 语法：路径模式  所有者（GitHub 用户名或 @org/team）
+# 伙伴加入后，把 @LEROY183492761 换成对应负责人即可。
 
-# 默认：所有改动至少一位维护者 review
-*                       @<你的用户名>
-
-# 前端
-/src/                   @<前端伙伴用户名>
-/tests/                 @<前端伙伴用户名>
-
-# Rust / 桌面端
-/src-tauri/             @<Rust 伙伴用户名>
-
-# 文档与协作配置
-/docs/                  @<你的用户名>
-/.github/               @<你的用户名>
+*                       @LEROY183492761
+/src/                   @LEROY183492761
+/tests/                 @LEROY183492761
+/src-tauri/             @LEROY183492761
+/docs/                  @LEROY183492761
+/.github/               @LEROY183492761
