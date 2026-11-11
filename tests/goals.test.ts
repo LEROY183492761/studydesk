@@ -58,7 +58,7 @@ describe('倒数日规则', () => {
       [
         countdown({ id: 'far', title: '远期', date: '2026-12-01' }),
         countdown({ id: 'near', title: '近期', date: '2026-09-08' }),
-        countdown({ id: 'past', title: '已过', date: '2026-09-06' }),
+        countdown({ id: 'past', title: '已过', date: '2026-09-05' }),
       ],
       now,
     );
